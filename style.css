@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    
+}
+header{
+    background-image: url("img\ 1.png\ -\ Atalho.lnk");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+aside {
+    /* background-color: #ffad08;
+    position: fixed;
+    top: 0;
+    left: 200px;
+    height: 100vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(-200px);
+    transition: 1.2s; */
+}
+
+aside h1{
+    margin-top: 120px;
+}
+
+
+#hamburger{
+    height: 36px;
+    width: 36px;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.tracinho{
+    background-color: black;
+    border-radius: 5px;
+    height: 6px;
+    margin-top: 5px;
+    transition: 1.2s;
+}
+
+/* aside.active{
+    transform: translateX(0);
+    transition: 1.2s;
+} */
+
+#hamburger.active .tracinho:nth-child(1){
+    transform: rotate(45deg) translate(7px, 9px);
+}
+
+#hamburger.active .tracinho:nth-child(2){
+    display: none;
+}
+
+#hamburger.active .tracinho:nth-child(3){
+    transform: rotate(135deg);
+}
+
+
+h1{
+    padding-top: 51px;
+    padding-left: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color:#69665d ;
+    font-size: 50px;
+    margin-top: 0;
+    
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #597cec;
+    margin: 0;
+    margin-left: 36px;
+    font-size: 28px;
+    font-weight: normal;
+}
+.separacao{
+    background-color:#ffad08;
+    width: 100vw;
+    height: 6px;
+    background-size: 100%;
+    margin: 0;
+}
+
+.sec1{
+height: 205px;
+width: 100%;
+}
+
+.sec1 div{
+height: 100%;
+margin-right: 40px;
+display: flex;
+}
+
+#p1{
+    color: #69665D;
+    font-family:'Lato', sans-serif;
+    margin: 0;
+    margin-left: 36px;
+    padding-top: 15%;
+    font-size: 18px;
+ 
+}
+
+.q3{
+    background-image: url("beige.lnk");
+    display: flex;
+}
+
+#funcao{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.q3 div p{
+    margin: 0;
+    color: #69665D;
+    font-weight: 500;
+    font-family:'Lato', sans-serif; 
+    font-size: 18px;
+    width: 100%;
+    margin-top: 26px;
+    margin-left:10px; 
+    
+}
+
+#mapa{
+    float: right;  
+}
+
+
+#dividir{
+    background-image: url(img\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 203px;
+    width: 100%;
+    padding-top: 5%;
+}
+
+#dividir h3{
+    color: #597cec;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    margin-left: 36px;
+    font-weight: normal;
+}
+
+#sec2{
+    display: flex;
+    width: 100vw;
+}
+
+
+
+#dp p{
+    color: #69665D;
+    font-size: 18px;
+    font-family:'Lato', sans-serif;
+    margin: 0;
+    margin-left:36px;
+    padding-top: 16%;
+    padding-left: 5%;
+}
+
+
+.s3{
+    background-image: url("WhatsApp\ Image\ 2018-07-16\ at\ 9.56.04\ AM.jpeg\ -\ Atalho.lnk");
+    height: 249px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#textoFinal{
+    margin-left: 110px;
+    padding-top: 7%;
+    margin-right: 5px;
+}
+
+#textoFinal h4{
+    color: #69665D;
+    font-family:'Lato', sans-serif;
+    font-size: 28px;
+    margin: 0;
+
+} 
+
+#textoFinal button{
+    display: inline-flex;
+    position: absolute;
+    
+    
+}
+
+button{
+    
+    background-color: #597CEC;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 230px;
+    height: 56px;
+    cursor: pointer;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;  
+    margin-top: 10%;
+    margin-left: 20%;
+}
