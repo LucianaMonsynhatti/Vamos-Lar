@@ -3,14 +3,14 @@ body{
     
 }
 header{
-    background-image: url("img\ 1.png\ -\ Atalho.lnk");
+    background-image: url("img\ 1.png");
     height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-aside {
-    /* background-color: #ffad08;
+/*aside {
+     background-color: #ffad08;
     position: fixed;
     top: 0;
     left: 200px;
@@ -21,8 +21,8 @@ aside {
     justify-content: flex-start;
     align-items: center;
     transform: translateX(-200px);
-    transition: 1.2s; */
-}
+    transition: 1.2s; 
+}*/
 
 aside h1{
     margin-top: 120px;
@@ -112,7 +112,7 @@ display: flex;
 }
 
 .q3{
-    background-image: url("beige.lnk");
+    background-image: url("fundo.jpg");
     display: flex;
 }
 
@@ -175,7 +175,7 @@ display: flex;
 
 
 .s3{
-    background-image: url("WhatsApp\ Image\ 2018-07-16\ at\ 9.56.04\ AM.jpeg\ -\ Atalho.lnk");
+    background-image: url("img\ 6.jpg");
     height: 249px;
     background-size: cover;
     background-repeat: no-repeat;
