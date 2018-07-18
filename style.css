@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    
+    max-width: 100%;
+    overflow-x: hidden;
 }
 header{
     background-image: url("img\ 1.png");
@@ -87,7 +88,6 @@ h2{
 
 .separacao{
     background-color:#ffad08;
-    width: 100vw;
     height: 6px;
     background-size: 100%;
     margin: 0;
@@ -96,13 +96,14 @@ h2{
 .sec1{
 height: 205px;
 width: 100%;
-}
-
-.sec1 div{
 height: 100%;
 margin-right: 40px;
 display: flex;
+align-items: center;
+
 }
+
+
 
 #p1{
     color: #69665D;
@@ -122,6 +123,9 @@ display: flex;
 #pessoaTab{
     display: none;
 }
+#pessoaDesk{
+    display: none;
+}
 
 #funcao{
     width: 100%;
@@ -130,12 +134,11 @@ display: flex;
 
 .q3 div p{
     margin: 0;
+    padding-top: 20px;
     color: #69665D;
     font-weight: 500;
     font-family:'Lato', sans-serif; 
     font-size: 18px;
-    width: 100%;
-    margin-top: 26px;
     margin-left:10px; 
     
 }
@@ -169,7 +172,6 @@ display: flex;
 
 #sec2{
     display: flex;
-    width: 100vw;
     justify-content: space-between;
 }
 
@@ -238,7 +240,9 @@ display: flex;
     }
 
     .sec1{
-        height: 300px;
+        height: 250px;
+        align-items: center;
+        display: flex;
         }
 
     h1{    
@@ -257,7 +261,7 @@ display: flex;
     }
 
     .q3{
-        height: 300px;
+height: 250px;
     }
 
     #pessoaMobi{
@@ -265,6 +269,10 @@ display: flex;
     }
     #pessoaTab{
         display: initial;
+    }
+    #pessoaDesk{
+        display: none;
+
     }
 
     .q3 div p{
@@ -312,4 +320,80 @@ display: flex;
         display: initial;
     }
 
+    #textoFinal > h4{
+        font-size: 32px;
+    }
+    #clicar{
+        margin-left: 40%;
+    }
+
+}
+
+@media(min-width: 1024px){
+    header{
+        background-image: url("imgDsk1.png");
+        height: 700px;
+    }
+
+    h1{
+        padding-top: 200px;
+        font-size: 50px;
+        padding-left: 146px;
+    }
+ h2{
+        font-size: 100px;
+        font-weight: bold;
+        margin-right: 20%;
+        padding-left: 146px;
+    }
+    #pessoaTab{
+        display: none;
+    }
+    #pessoaDesk{
+        display: initial;
+    }
+    p{
+        padding-left: 146px;
+        padding-right: 146px;
+    }
+    #p1{
+        padding-left: 146px;
+        
+    }
+#dividir{
+    background-image: url(imgDsk4.png);
+    background-size: 100% 100%
+}
+    #sec1{
+        align-items: center;
+        display: flex;
+    }
+
+}
+
+.meio{
+    display: flex; 
+    height: 500px;
+}
+.meio #pessoaDesk{
+    width: 30%;
+}
+.meio #pessoaTab{
+    width: 30%;
+}
+.meio #pessoaMob{
+    width: 20%;
+}
+#p1{
+    padding-right: 146px;
+}
+.s3 h4{
+    padding-left: 146px;
+}
+#sec2 #dp{
+    padding-left: 146px;
+}
+
+#clicar{
+    display: none;
 }
